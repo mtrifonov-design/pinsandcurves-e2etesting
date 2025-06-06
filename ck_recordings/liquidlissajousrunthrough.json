@@ -1,0 +1,4860 @@
+[
+  {
+    "workload": {
+      "ui": [
+        {
+          "type": "worker",
+          "sender": {
+            "instance_id": "ui",
+            "resource_id": "ui",
+            "modality": "ui"
+          },
+          "receiver": {
+            "instance_id": "ui",
+            "resource_id": "ui",
+            "modality": "ui"
+          },
+          "payload": {
+            "CONFIRM_TERMINATE_COMPLETED": true,
+            "terminate_completed_id": "r6fd3ov487"
+          },
+          "id": "3j26fo6awf6"
+        }
+      ]
+    },
+    "timestamp": 1576
+  },
+  {
+    "workload": {
+      "ui": [
+        {
+          "type": "worker",
+          "sender": {
+            "instance_id": "ui",
+            "resource_id": "ui",
+            "modality": "ui"
+          },
+          "receiver": {
+            "instance_id": "ui",
+            "resource_id": "ui",
+            "modality": "ui"
+          },
+          "payload": {
+            "tree": {
+              "8d457088-6d04-409b-8c18-a23e2c2c0703": {
+                "type": "b",
+                "id": "8d457088-6d04-409b-8c18-a23e2c2c0703",
+                "inhabited": false,
+                "root": false,
+                "parentId": "be27c48e-b5f7-4cdf-b987-909fe5897cf5"
+              },
+              "7ef8308c-ae66-4d15-a94f-70352e8f4192": {
+                "type": "b",
+                "id": "7ef8308c-ae66-4d15-a94f-70352e8f4192",
+                "inhabited": false,
+                "root": false,
+                "parentId": "be27c48e-b5f7-4cdf-b987-909fe5897cf5"
+              },
+              "be27c48e-b5f7-4cdf-b987-909fe5897cf5": {
+                "type": "c",
+                "id": "be27c48e-b5f7-4cdf-b987-909fe5897cf5",
+                "children": {
+                  "leftId": "8d457088-6d04-409b-8c18-a23e2c2c0703",
+                  "rightId": "7ef8308c-ae66-4d15-a94f-70352e8f4192"
+                },
+                "percentage": 0.5,
+                "direction": "row",
+                "root": true
+              }
+            }
+          },
+          "id": "xekna06h1r"
+        }
+      ]
+    },
+    "timestamp": 1583
+  },
+  {
+    "workload": {
+      "ui": [
+        {
+          "type": "worker",
+          "sender": {
+            "instance_id": "ui",
+            "resource_id": "ui",
+            "modality": "ui"
+          },
+          "receiver": {
+            "instance_id": "ui",
+            "resource_id": "ui",
+            "modality": "ui"
+          },
+          "payload": {
+            "CONFIRM_TERMINATE_COMPLETED": true,
+            "terminate_completed_id": "y0m6gqw903h"
+          },
+          "id": "el63a4ut15w"
+        }
+      ]
+    },
+    "timestamp": 4553
+  },
+  {
+    "workload": {
+      "ui": [
+        {
+          "type": "worker",
+          "sender": {
+            "instance_id": "ui",
+            "resource_id": "ui",
+            "modality": "ui"
+          },
+          "receiver": {
+            "instance_id": "ui",
+            "resource_id": "ui",
+            "modality": "ui"
+          },
+          "payload": {
+            "tree": {
+              "8d457088-6d04-409b-8c18-a23e2c2c0703": {
+                "type": "b",
+                "id": "8d457088-6d04-409b-8c18-a23e2c2c0703",
+                "inhabited": false,
+                "root": false,
+                "parentId": "be27c48e-b5f7-4cdf-b987-909fe5897cf5"
+              },
+              "be27c48e-b5f7-4cdf-b987-909fe5897cf5": {
+                "type": "c",
+                "id": "be27c48e-b5f7-4cdf-b987-909fe5897cf5",
+                "children": {
+                  "leftId": "8d457088-6d04-409b-8c18-a23e2c2c0703",
+                  "rightId": "2573165b-3c97-4c9e-a962-9197e91283b9"
+                },
+                "percentage": 0.5,
+                "direction": "row",
+                "root": true
+              },
+              "2573165b-3c97-4c9e-a962-9197e91283b9": {
+                "type": "b",
+                "id": "2573165b-3c97-4c9e-a962-9197e91283b9",
+                "inhabited": false,
+                "root": false,
+                "parentId": "be27c48e-b5f7-4cdf-b987-909fe5897cf5",
+                "payload": {
+                  "address": "http://localhost:5174/#liquidlissajous"
+                }
+              }
+            }
+          },
+          "id": "1x7k59d2nrm"
+        }
+      ]
+    },
+    "timestamp": 4561
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "9f4fc7e7-9536-4db5-9d7b-5b6457e29b46",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "subscribeToExistingAsset": {
+              "asset_id": "index",
+              "subscription_id": "2573165b-3c97-4c9e-a962-9197e91283b9_index"
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous",
+            "instance_id": "2573165b-3c97-4c9e-a962-9197e91283b9"
+          }
+        }
+      ]
+    },
+    "timestamp": 4753
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "a70192da-8d97-4343-8154-e8226ef9e66d",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "subscribeToExistingAsset": {
+              "asset_id": "index",
+              "subscription_id": "2573165b-3c97-4c9e-a962-9197e91283b9_index"
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous",
+            "instance_id": "2573165b-3c97-4c9e-a962-9197e91283b9"
+          }
+        }
+      ]
+    },
+    "timestamp": 4753
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "2dc0cb52-9840-4f68-ae17-d0747b31c38d",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "createAsset": {
+              "asset": {
+                "data": {
+                  "particleCount": 10,
+                  "particleColors": [
+                    [
+                      255,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      255,
+                      0
+                    ],
+                    [
+                      0,
+                      0,
+                      255
+                    ]
+                  ],
+                  "loopLifecycle": 300,
+                  "mixingIntensity": 0.3,
+                  "showLissajousFigure": false,
+                  "ratioA": 1,
+                  "ratioB": 2,
+                  "offset": 1.5707963267948966,
+                  "width": 1920,
+                  "height": 1080,
+                  "figureScaleX": 0.2,
+                  "figureScaleY": 0.3
+                },
+                "metadata": {
+                  "type": "controls",
+                  "name": "liquidlissajous.controls",
+                  "preferredEditorAddress": "http://localhost:5174/#liquidlissajous-controlconsole"
+                },
+                "on_update": {
+                  "type": "simple"
+                },
+                "id": "liquidlissajous.controls"
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous",
+            "instance_id": "2573165b-3c97-4c9e-a962-9197e91283b9"
+          }
+        }
+      ]
+    },
+    "timestamp": 4798
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "26e8d30c-1e69-45fa-8284-42c376a995a2",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "createAsset": {
+              "asset": {
+                "data": {
+                  "worm": "{\"content\":{\"metaData\":{\"name\":\"Empty Project\",\"pinsAndCurvesVersion\":\"0.0.1\"},\"orgData\":{\"signalIds\":[\"s1\",\"cx\",\"cy\"],\"signalIdByPinId\":{\"zc4ha\":\"cx\",\"urpc3c\":\"cx\",\"cr6ldo\":\"cx\",\"fghni\":\"cy\",\"xg29r\":\"cy\",\"bmdpr8\":\"cy\"},\"pinIds\":[\"zc4ha\",\"urpc3c\",\"cr6ldo\",\"fghni\",\"xg29r\",\"bmdpr8\"],\"signalNames\":{\"s1\":\"Unused Signal\",\"cx\":\"Center X\",\"cy\":\"Center Y\"},\"signalTypes\":{\"s1\":\"continuous\",\"cx\":\"continuous\",\"cy\":\"continuous\"},\"activeSignalIds\":[\"s1\"]},\"timelineData\":{\"numberOfFrames\":900,\"framesPerSecond\":30,\"playheadPosition\":45,\"focusRange\":[0,100],\"playing\":false,\"playingTimestamp\":0},\"signalData\":{\"s1\":{\"id\":\"s1\",\"type\":\"continuous\",\"range\":[0,1],\"pinIds\":[],\"pinTimes\":{},\"pinValues\":{},\"curves\":{},\"defaultCurve\":\"return easyLinear();\",\"defaultValue\":0},\"cx\":{\"id\":\"cx\",\"type\":\"continuous\",\"range\":[0,1],\"pinIds\":[\"zc4ha\",\"urpc3c\",\"cr6ldo\"],\"pinTimes\":{\"zc4ha\":0,\"urpc3c\":50,\"cr6ldo\":900},\"pinValues\":{\"zc4ha\":0,\"urpc3c\":1,\"cr6ldo\":1},\"curves\":{\"zc4ha\":\"return easyLinear()\",\"urpc3c\":\"return easyLinear()\",\"cr6ldo\":\"return easyLinear()\"},\"defaultCurve\":\"return easyLinear();\",\"defaultValue\":0},\"cy\":{\"id\":\"cy\",\"type\":\"continuous\",\"range\":[0,1],\"pinIds\":[\"fghni\",\"xg29r\",\"bmdpr8\"],\"pinTimes\":{\"fghni\":0,\"xg29r\":50,\"bmdpr8\":900},\"pinValues\":{\"fghni\":0,\"xg29r\":1,\"bmdpr8\":1},\"curves\":{\"fghni\":\"return easyLinear()\",\"xg29r\":\"return easyLinear()\",\"bmdpr8\":\"return easyLinear()\"},\"defaultCurve\":\"return easyLinear();\",\"defaultValue\":0}},\"templateData\":{}},\"__internal\":{\"namedStates\":{},\"states\":{\"initial\":{\"forward\":[],\"backward\":[]}},\"cursor\":\"initial\",\"maxSize\":10000}}",
+                  "stateId": "initialState",
+                  "outgoingCommands": []
+                },
+                "metadata": {
+                  "type": "timeline",
+                  "name": "liquidlissajous.timeline",
+                  "preferredEditorAddress": "http://localhost:5174/#editing"
+                },
+                "on_update": {
+                  "type": "custom",
+                  "processor": {
+                    "modality": "wasmjs",
+                    "resource_id": "http://localhost:8000/TimelineProcessor"
+                  }
+                },
+                "id": "liquidlissajous.timeline"
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous",
+            "instance_id": "2573165b-3c97-4c9e-a962-9197e91283b9"
+          }
+        }
+      ]
+    },
+    "timestamp": 4798
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "7a5b9e16-6b7f-41a9-b573-43f5d9e9fdac",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "subscribeToExistingAsset": {
+              "asset_id": "liquidlissajous.controls",
+              "subscription_id": "2573165b-3c97-4c9e-a962-9197e91283b9_liquidlissajous.controls"
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous",
+            "instance_id": "2573165b-3c97-4c9e-a962-9197e91283b9"
+          }
+        }
+      ]
+    },
+    "timestamp": 4800
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "1973b006-93d6-4129-80af-b2425c79bd87",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "subscribeToExistingAsset": {
+              "asset_id": "liquidlissajous.timeline",
+              "subscription_id": "2573165b-3c97-4c9e-a962-9197e91283b9_liquidlissajous.timeline"
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous",
+            "instance_id": "2573165b-3c97-4c9e-a962-9197e91283b9"
+          }
+        }
+      ]
+    },
+    "timestamp": 4847
+  },
+  {
+    "workload": {
+      "ui": [
+        {
+          "type": "worker",
+          "sender": {
+            "instance_id": "ui",
+            "resource_id": "ui",
+            "modality": "ui"
+          },
+          "receiver": {
+            "instance_id": "ui",
+            "resource_id": "ui",
+            "modality": "ui"
+          },
+          "payload": {
+            "CONFIRM_TERMINATE_COMPLETED": true,
+            "terminate_completed_id": "yx7kd29mj5n"
+          },
+          "id": "70flz33wtey"
+        }
+      ]
+    },
+    "timestamp": 6261
+  },
+  {
+    "workload": {
+      "ui": [
+        {
+          "type": "worker",
+          "sender": {
+            "instance_id": "ui",
+            "resource_id": "ui",
+            "modality": "ui"
+          },
+          "receiver": {
+            "instance_id": "ui",
+            "resource_id": "ui",
+            "modality": "ui"
+          },
+          "payload": {
+            "tree": {
+              "be27c48e-b5f7-4cdf-b987-909fe5897cf5": {
+                "type": "c",
+                "id": "be27c48e-b5f7-4cdf-b987-909fe5897cf5",
+                "children": {
+                  "leftId": "af23c439-5597-423f-879b-fe188848dc2a",
+                  "rightId": "2573165b-3c97-4c9e-a962-9197e91283b9"
+                },
+                "percentage": 0.5,
+                "direction": "row",
+                "root": true
+              },
+              "2573165b-3c97-4c9e-a962-9197e91283b9": {
+                "type": "b",
+                "id": "2573165b-3c97-4c9e-a962-9197e91283b9",
+                "inhabited": false,
+                "root": false,
+                "parentId": "be27c48e-b5f7-4cdf-b987-909fe5897cf5",
+                "payload": {
+                  "address": "http://localhost:5174/#liquidlissajous"
+                }
+              },
+              "af23c439-5597-423f-879b-fe188848dc2a": {
+                "type": "b",
+                "id": "af23c439-5597-423f-879b-fe188848dc2a",
+                "inhabited": false,
+                "root": false,
+                "parentId": "be27c48e-b5f7-4cdf-b987-909fe5897cf5",
+                "payload": {
+                  "address": "http://localhost:5174/#liquidlissajous-controlconsole"
+                }
+              }
+            }
+          },
+          "id": "51by7xksz9"
+        }
+      ]
+    },
+    "timestamp": 6266
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "511da950-e54e-426d-b40c-d4b60e9d285b",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "subscribeToExistingAsset": {
+              "asset_id": "index",
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_index"
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 6396
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "983b5c6f-097d-41c9-a96f-dede3c4aa715",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "subscribeToExistingAsset": {
+              "asset_id": "index",
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_index"
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 6396
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "60a4ae0e-ec89-4a5b-9867-59b38e356074",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "subscribeToExistingAsset": {
+              "asset_id": "liquidlissajous.timeline",
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.timeline"
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 6399
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "88bbc55b-6bb8-4614-a113-8f64c446af98",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "subscribeToExistingAsset": {
+              "asset_id": "liquidlissajous.controls",
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls"
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 6399
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "ba325c61-aeb5-45fb-b804-2a87d17afe73",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "2573165b-3c97-4c9e-a962-9197e91283b9_liquidlissajous.timeline",
+              "asset_id": "liquidlissajous.timeline",
+              "update": {
+                "commands": [
+                  {
+                    "type": "goToNamedState",
+                    "namedState": "commit"
+                  },
+                  {
+                    "type": "addNextState",
+                    "forward": [
+                      {
+                        "type": "updatePlaying",
+                        "playing": true,
+                        "playingTimestamp": 1748511184759
+                      }
+                    ],
+                    "backward": [
+                      {
+                        "type": "updatePlaying",
+                        "playing": false,
+                        "playingTimestamp": 0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "saveAsNamedState",
+                    "namedState": "commit"
+                  }
+                ],
+                "aStateId": "initialState",
+                "bStateId": "21ac125f-acbb-4ef3-9906-302268e098cb"
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous",
+            "instance_id": "2573165b-3c97-4c9e-a962-9197e91283b9"
+          }
+        }
+      ]
+    },
+    "timestamp": 7729
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "a67859b0-2333-4149-9a8c-90f0be4c0dec",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.timeline",
+              "asset_id": "liquidlissajous.timeline",
+              "update": {
+                "commands": [
+                  {
+                    "type": "goToNamedState",
+                    "namedState": "commit"
+                  },
+                  {
+                    "type": "addNextState",
+                    "forward": [
+                      {
+                        "type": "updateFocusRange",
+                        "focusRange": [
+                          0,
+                          431
+                        ]
+                      }
+                    ],
+                    "backward": [
+                      {
+                        "type": "updateFocusRange",
+                        "focusRange": [
+                          0,
+                          100
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "saveAsNamedState",
+                    "namedState": "commit"
+                  }
+                ],
+                "aStateId": "21ac125f-acbb-4ef3-9906-302268e098cb",
+                "bStateId": "66781fe4-1f6a-4326-800a-61796c619736"
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 11948
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "4c307a0d-be2c-426e-b4f9-6f742c3f98dd",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    255
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1920,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 11949
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "4155c75a-9d8f-4afd-a801-93d9f574b13a",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    128,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1920,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 15865
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "df28fee4-d179-48d0-a36a-e0cc94396c7a",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    115,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1920,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 15871
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "6248466b-3472-4f12-8aa3-3e64092ee29f",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    102,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1920,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 15876
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "dbeb281b-384a-4bcf-bc6b-aa063daadf1b",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    89,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1920,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 15881
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "559940b1-66c8-4676-ac12-7525821505e7",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    102,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1920,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 16077
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "53c12ba9-ef46-47ec-b768-b010f8258e69",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    115,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1920,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 16114
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "56ab7008-444b-4d1b-835c-5fa1ab033ecd",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    128,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1920,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 16180
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "8d322162-72c6-4a01-a895-b1d470ec00ed",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    140,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1920,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 16201
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "dc560b6f-5327-4e0d-8b12-8c509bfbc5eb",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    153,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1920,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 16220
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "f002b83f-52b5-4d0a-8e67-1f52ff3fd1b8",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    166,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1920,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 16263
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "02bebdc0-226e-4715-a4d4-b10cf4e5e368",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    174,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1920,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 16290
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "dc80800d-d523-4936-a4c7-ce11739d015b",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    187,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1920,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 16355
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "75692c80-09f3-4c4f-9f41-c04f5d1f00eb",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1920,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 16420
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "effc9b4e-d15c-44b7-a6ac-4233f361f84d",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1980,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18718
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "14d12547-fd12-4c9d-83cf-74a2c00fcae2",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 1980,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18727
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "0c38b91f-e78d-4609-ae71-1040ec2fa1c5",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2010,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18731
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "3878a7a0-cac7-4dba-8935-fa5569f6938e",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2040,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18740
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "75d57592-ba17-4a10-8e03-e9599ca7f5ee",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2040,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18747
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "0854a811-9584-4378-be30-df08c723ab0e",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2080,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18756
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "b20d312f-c5d7-4c36-a930-c32f67dda87f",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2110,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18765
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "97a0672a-ea07-49b3-b6d3-6452be525c5b",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2140,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18770
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "df2a41df-5c28-4a31-b8a3-be7ba2fd5df5",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2170,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18779
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "8998dcaf-b570-436f-999a-8c4cfac89168",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2170,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18787
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "40fb2b92-93e6-4955-8f9d-018a06fc46f6",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2200,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18796
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "9b3c0d8a-bb41-42a5-b242-cdbfae569509",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2230,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18803
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "a04ae18f-94c3-41c8-be2e-053dcdb594a4",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2260,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18815
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "eb83a748-b396-4a6c-9c6e-3449a1ea56f8",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2330,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18819
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "fa5d1deb-836e-4e69-a256-35537e8b2af4",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2360,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18827
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "f95df53a-5d68-4199-a753-b55e599e3f2e",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2390,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18835
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "6b2bc4fa-5cbd-4934-b9ca-a1f42b4a4173",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2450,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18845
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "94734a30-de29-4cbf-afa9-10ba4afd59b0",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2480,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18851
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "6fcaf53a-b79e-4c8b-8a8b-708a8d3be9eb",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2510,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18859
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "07790d43-0c86-47b9-bbee-6d65c4969385",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2570,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18867
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "d53884bf-d46f-457d-a981-44a1407e5f50",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2610,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18876
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "14f3270a-a265-4e18-949e-e2856b8f8e2b",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2640,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18884
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "fa2f9182-4cc7-4858-a97b-9697ac59e8d0",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2670,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18891
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "35a86308-a0be-45b6-99a7-e9d188175ed0",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2700,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18903
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "fd13a0f8-0fab-403d-aae1-409be1c5ab14",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2700,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18907
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "678a67da-5b71-4631-9810-f36ddd000249",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2730,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18915
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "c08f0c96-4f8a-4cc7-b2e2-13d0446d13e6",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2760,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18923
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "9d87ecce-07b1-4cfa-afcb-a65d1868a47f",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2790,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18930
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "189a2861-ba91-416b-94dc-fe5f63a17292",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2820,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18940
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "b9ed3d01-a07d-4a58-8162-b96f3920ae29",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2820,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18947
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "9d1c8ead-ad04-4e21-bd24-e665cec0fef3",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2860,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18956
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "26035798-70ae-4d41-8bab-ccc5d56f8056",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2860,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18965
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "07be6f33-1386-4ef7-a657-000b8657ee0f",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2890,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18970
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "afd6b389-f1fe-44f2-9a01-89bb636d7218",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2920,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18979
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "4b395557-be81-4109-9b19-8bd54b89b74f",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2950,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18987
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "29091055-3116-485b-b881-5599834fa638",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2950,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 18996
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "27f44a60-6a3d-4ad4-96c8-cd1a5e5edf8d",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2950,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19005
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "15b39fd2-119b-40e3-8057-0b7b898d1317",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2980,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19011
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "4ec26c25-b7dd-4b11-9300-c1877cc7ebb4",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 2980,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19019
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "f6369fcc-d09b-4f46-b4d8-25fe720ac43c",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3010,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19027
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "6660c8f6-6401-453a-b7e4-4603d3eb70a8",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3010,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19035
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "c991f943-6c87-4096-8bad-be30c421018d",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3010,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19046
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "9c706e6d-9e2a-4ce9-9a9b-aa270bf1ab44",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3040,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19050
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "7705bd3a-b899-4468-92eb-9e1b247b6b08",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3040,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19059
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "cea37c49-c361-4797-bbe6-42fdfcd32f33",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3040,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19067
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "9917fb63-33a7-4807-b7cd-15a0e6c5a8fc",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3040,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19080
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "3d0cda59-f825-4584-a496-5fd9f36d0443",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3040,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19087
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "22fab490-ae16-4b9f-ae2c-78c670a1fdb8",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3070,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19095
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "1510037b-bac6-480e-939a-c3a83e412508",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3070,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19102
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "2685bd2c-1e9a-41c0-88a1-926c0256a75d",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3070,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19113
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "9f9f648c-d99c-48a3-b3f6-386c0119d666",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3070,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19119
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "b96b3b64-384a-4ff0-b1b0-c853082ffaa9",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3100,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19127
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "4d2a4c79-6404-48c3-b698-80c8b8c3a148",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3100,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19138
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "4666fb88-9a68-4a8e-8bff-2bc9b35c8a51",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3100,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19142
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "be5def51-892c-46f4-9fc4-d9c9cefe7e51",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3140,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19151
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "c83fe2cb-b036-4be4-931c-0a75e77ee6f2",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3140,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19192
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "04609d5c-a4df-4b28-8ef5-7f9be7cba41a",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3140,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19196
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "4cdae399-1e1f-464d-8800-cd1011676e00",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "af23c439-5597-423f-879b-fe188848dc2a_liquidlissajous.controls",
+              "asset_id": "liquidlissajous.controls",
+              "update": {
+                "particleCount": 10,
+                "particleColors": [
+                  [
+                    255,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    255,
+                    0
+                  ],
+                  [
+                    200,
+                    255,
+                    0
+                  ]
+                ],
+                "loopLifecycle": 431,
+                "mixingIntensity": 0.3,
+                "showLissajousFigure": false,
+                "ratioA": 1,
+                "ratioB": 2,
+                "offset": 1.5707963267948966,
+                "width": 3140,
+                "height": 1080,
+                "figureScaleX": 0.2,
+                "figureScaleY": 0.3
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous-controlconsole",
+            "instance_id": "af23c439-5597-423f-879b-fe188848dc2a"
+          }
+        }
+      ]
+    },
+    "timestamp": 19435
+  },
+  {
+    "workload": {
+      "default": [
+        {
+          "type": "worker",
+          "id": "3724a5c0-d571-4e6c-bc32-0d95c7c17c3e",
+          "receiver": {
+            "instance_id": "ASSET_SERVER",
+            "modality": "wasmjs",
+            "resource_id": "http://localhost:8000/AssetServerV2"
+          },
+          "payload": {
+            "updateAsset": {
+              "subscription_id": "2573165b-3c97-4c9e-a962-9197e91283b9_liquidlissajous.timeline",
+              "asset_id": "liquidlissajous.timeline",
+              "update": {
+                "commands": [
+                  {
+                    "type": "goToNamedState",
+                    "namedState": "commit"
+                  },
+                  {
+                    "type": "addNextState",
+                    "forward": [
+                      {
+                        "type": "updatePlaying",
+                        "playing": false,
+                        "playingTimestamp": 0
+                      }
+                    ],
+                    "backward": [
+                      {
+                        "type": "updatePlaying",
+                        "playing": true,
+                        "playingTimestamp": 1748511184759
+                      }
+                    ]
+                  },
+                  {
+                    "type": "addNextState",
+                    "forward": [
+                      {
+                        "type": "updatePlayheadPosition",
+                        "playheadPosition": 137
+                      }
+                    ],
+                    "backward": [
+                      {
+                        "type": "updatePlayheadPosition",
+                        "playheadPosition": 137
+                      }
+                    ]
+                  },
+                  {
+                    "type": "saveAsNamedState",
+                    "namedState": "commit"
+                  }
+                ],
+                "aStateId": "66781fe4-1f6a-4326-800a-61796c619736",
+                "bStateId": "fd1eeabe-6745-4088-b26e-ec9000053bbd"
+              }
+            }
+          },
+          "sender": {
+            "modality": "iframe",
+            "resource_id": "http://localhost:5174/#liquidlissajous",
+            "instance_id": "2573165b-3c97-4c9e-a962-9197e91283b9"
+          }
+        }
+      ]
+    },
+    "timestamp": 25170
+  }
+]
